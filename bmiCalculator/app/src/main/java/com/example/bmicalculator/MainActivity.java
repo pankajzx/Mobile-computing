@@ -51,9 +51,9 @@ public class MainActivity extends AppCompatActivity {
                 double bmi = wt/(totalM);
 
                 if (bmi> 25){
-                    txtResult.setText("You are Over Weight.");
+                    txtResult.setText("You are OverWeight.");
                 } else if (bmi<18) {
-                    txtResult.setText("You are Under Weight.");
+                    txtResult.setText("You are UnderWeight.");
                 }else
                     txtResult.setText("You are Healthy.");
             }
